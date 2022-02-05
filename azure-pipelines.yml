@@ -23,7 +23,7 @@ steps:
 - task: AzureWebApp@1
   inputs:
     azureSubscription: 'Azure subscription 1(f7a5f0fe-edca-4cda-9023-1dd15cb83d3d)'
-    appType: 'webApp'
-    appName: 'my-app-dotnet-win25'
+    appType: webApp
+    appName: my-app-dotnet-win25
     package: '$(System.DefaultWorkingDirectory)/**/*.zip'
 
